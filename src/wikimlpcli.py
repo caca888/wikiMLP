@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# pylint: disable=E0401
 from wikinlplib import get_phrase
 from wikinlplib import summarize_wiki
 
