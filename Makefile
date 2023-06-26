@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv tests/test_*.py
+	python -m pytest -vv --cov=wikinlplib tests/test_*.py
 
 format:
 	black src/*.py
