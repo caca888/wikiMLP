@@ -9,6 +9,7 @@ The app is aim to deploy CI pipeline in the Github Actions for the following fun
 * Unified formatting of Code
 * Setup Command Line Tool
 * Installation of Dependencies
+* Automatic Code Bulding
   
   
 ![CI Environment](/img/CI.PNG)
