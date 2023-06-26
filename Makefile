@@ -16,6 +16,10 @@ container-lint:
 
 refactor: format lint
 
+generate: 
+	python setup.py install &&\
+		python setup.py build
+
 deploy:
 	#deploy goes here
 
