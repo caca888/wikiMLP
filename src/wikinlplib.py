@@ -50,6 +50,7 @@ def conclude_text(name):
     return text[0]['summary_text']
 
 def get_sentiment(name):
+    # pylint: disable=W1309
     MODEL = f"cardiffnlp/twitter-roberta-base-sentiment-latest"
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
     config = AutoConfig.from_pretrained(MODEL)
