@@ -10,9 +10,9 @@ The application includes the following user interfaces:
 according to the figure shown in the CI environment.
 
 In particular, the following functionalities are available via the above user interfaces
-* wikipedia summary about the searching term - [wikipedia library](https://pypi.org/project/wikipedia/)
-* key words extracted from the wikipedia summary - [text_blob library](https://textblob.readthedocs.io/en/dev/)
-* sentimental analysis of the wikipedia summary - [text summary based on model facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) and then the summarized text will be analyzed by [sentimental analysis model cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
+* Wikipedia Searching: wikipedia summary about the searching term, ref to. [wikipedia library](https://pypi.org/project/wikipedia/)
+* Key Word Extraction: key words extracted from the wikipedia summary, ref to. [text_blob library](https://textblob.readthedocs.io/en/dev/)
+* Sentimental Analysis: sentimental analysis of the wikipedia summary, step 1 to limit summary content about the term, ref. to [text summary based on model facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) and in step 2 the summarized text will be analyzed by [sentimental analysis model cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
 
 
 ## CI Environment
